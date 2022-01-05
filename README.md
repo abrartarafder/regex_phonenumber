@@ -7,6 +7,6 @@ list of valid phone numbers include:
 _ _ _ - _ _ _ - _ _ _ _ , _ _ _ _ _ _ _ _ _ _ , ( _ _ _ )_ _ _ _ _ _ _ , ( _ _ _ ) - _ _ _ - _ _ _ _ , ( _ _ _ )_ _ _ - _ _ _ _ , +_ - _ _ _ - _ _ _ - _ _ _ _ , +_ ( _ _ _ )_ _ _ -_ _ _ _ , +_ _ _ _ _ _ _ _ _ _ _ , _ _ _ _ _ _ _ _ _ _ _ 
 
 
-this takes into account country codes, area codes, parenthesis --> if one is open it must be closed. 
+this takes into account country codes, area codes, parenthesis --> once opened it must be closed. 
 
 ** The python code takes spaces into account as well!
