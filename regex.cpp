@@ -17,7 +17,7 @@ int main()
 
 
     // prompt user
-    cout << "ENTER A PHONE NUMBER TO SEE IF ITS VALID (_ _ _ - _ _ _ - _ _ _ _): ";
+    cout << "ENTER A PHONE NUMBER TO SEE IF ITS VALID: ";
     cin >> phone_number;
 
    
