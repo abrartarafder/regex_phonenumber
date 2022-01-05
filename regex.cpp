@@ -10,7 +10,8 @@ int main()
     string phone_number; 
    
     // regex expression for pattern to be searched 
-    regex regexp("^([+])?([0-9])?(-)*[(]*[0-9]{3}[)]*(-)*[0-9]{3}(-)*[0-9]{4}$"); 
+//    ? refers to 0 or 1
+    regex regexp("/^([+])?([0-9])?(-)?[(]?[0-9]{3}[)]?(-)?[0-9]{3}(-)?[0-9]{4}$/gm"); 
    
     // matching variable (finds match within string)
      smatch m; 
