@@ -11,7 +11,7 @@ int main()
    
     // regex expression for pattern to be searched 
 //    ? refers to 0 or 1
-    regex regexp("/^([+])?([0-9])?(-)?[(]?[0-9]{3}[)]?(-)?[0-9]{3}(-)?[0-9]{4}$/gm"); 
+    regex regexp("^([+])?([0-9])?(-)?[(]?[0-9]{3}[)]?(-)?[0-9]{3}(-)?[0-9]{4}$"); 
    
     // matching variable (finds match within string)
      smatch m; 
